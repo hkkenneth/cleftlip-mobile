@@ -43,10 +43,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #333333;
+  color: purple;
   font-family: "Quicksand", sans-serif;
-  line-height: 0.9em;
-  letter-spacing: -0.08em;
   text-transform: uppercase;
   text-shadow: none; }
 
@@ -78,9 +76,9 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
+  margin: 15px 15px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #333333;
+  border: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -143,3 +141,13 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #3b759e; }
+
+.reveal blockquote {
+  font-size: 170%;
+  line-height: 150%;
+}
+
+.reveal ul li {
+  font-size: 200%;
+  line-height: 170%;
+}
